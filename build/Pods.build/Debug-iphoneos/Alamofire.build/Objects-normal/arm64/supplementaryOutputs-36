@@ -1,0 +1,25 @@
+"/Users/liushuaibiao/Desktop/GetOffSubReminder/Pods/Alamofire/Source/ParameterEncoder.swift":
+  object: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/ParameterEncoder.o"
+  dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/ParameterEncoder.d"
+  diagnostics: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/ParameterEncoder.dia"
+  swift-dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/ParameterEncoder.swiftdeps"
+"/Users/liushuaibiao/Desktop/GetOffSubReminder/Pods/Alamofire/Source/ParameterEncoding.swift":
+  diagnostics: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/ParameterEncoding.dia"
+  object: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/ParameterEncoding.o"
+  swift-dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/ParameterEncoding.swiftdeps"
+  dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/ParameterEncoding.d"
+"/Users/liushuaibiao/Desktop/GetOffSubReminder/Pods/Alamofire/Source/OperationQueue+Alamofire.swift":
+  swift-dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/OperationQueue+Alamofire.swiftdeps"
+  dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/OperationQueue+Alamofire.d"
+  diagnostics: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/OperationQueue+Alamofire.dia"
+  object: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/OperationQueue+Alamofire.o"
+"/Users/liushuaibiao/Desktop/GetOffSubReminder/Pods/Alamofire/Source/Protected.swift":
+  object: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Protected.o"
+  dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Protected.d"
+  diagnostics: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Protected.dia"
+  swift-dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Protected.swiftdeps"
+"/Users/liushuaibiao/Desktop/GetOffSubReminder/Pods/Alamofire/Source/RedirectHandler.swift":
+  object: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/RedirectHandler.o"
+  dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/RedirectHandler.d"
+  swift-dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/RedirectHandler.swiftdeps"
+  diagnostics: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/RedirectHandler.dia"

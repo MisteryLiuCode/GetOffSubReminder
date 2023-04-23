@@ -1,0 +1,14 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/unextended-module.modulemap",
+    }]
+  }]
+}

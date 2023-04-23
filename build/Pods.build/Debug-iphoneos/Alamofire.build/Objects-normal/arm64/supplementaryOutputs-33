@@ -1,0 +1,25 @@
+"/Users/liushuaibiao/Desktop/GetOffSubReminder/Pods/Alamofire/Source/AFError.swift":
+  swift-dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AFError.swiftdeps"
+  dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AFError.d"
+  diagnostics: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AFError.dia"
+  object: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AFError.o"
+"/Users/liushuaibiao/Desktop/GetOffSubReminder/Pods/Alamofire/Source/Alamofire.swift":
+  dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Alamofire.d"
+  diagnostics: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Alamofire.dia"
+  swift-dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Alamofire.swiftdeps"
+  object: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Alamofire.o"
+"/Users/liushuaibiao/Desktop/GetOffSubReminder/Pods/Alamofire/Source/AlamofireExtended.swift":
+  swift-dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AlamofireExtended.swiftdeps"
+  diagnostics: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AlamofireExtended.dia"
+  object: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AlamofireExtended.o"
+  dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AlamofireExtended.d"
+"/Users/liushuaibiao/Desktop/GetOffSubReminder/Pods/Alamofire/Source/AuthenticationInterceptor.swift":
+  object: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AuthenticationInterceptor.o"
+  dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AuthenticationInterceptor.d"
+  diagnostics: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AuthenticationInterceptor.dia"
+  swift-dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AuthenticationInterceptor.swiftdeps"
+"/Users/liushuaibiao/Desktop/GetOffSubReminder/Pods/Alamofire/Source/CachedResponseHandler.swift":
+  object: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/CachedResponseHandler.o"
+  dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/CachedResponseHandler.d"
+  diagnostics: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/CachedResponseHandler.dia"
+  swift-dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/CachedResponseHandler.swiftdeps"

@@ -1,0 +1,20 @@
+"/Users/liushuaibiao/Desktop/GetOffSubReminder/Pods/Alamofire/Source/URLConvertible+URLRequestConvertible.swift":
+  swift-dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLConvertible+URLRequestConvertible.swiftdeps"
+  object: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLConvertible+URLRequestConvertible.o"
+  diagnostics: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLConvertible+URLRequestConvertible.dia"
+  dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLConvertible+URLRequestConvertible.d"
+"/Users/liushuaibiao/Desktop/GetOffSubReminder/Pods/Alamofire/Source/Session.swift":
+  object: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Session.o"
+  dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Session.d"
+  swift-dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Session.swiftdeps"
+  diagnostics: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Session.dia"
+"/Users/liushuaibiao/Desktop/GetOffSubReminder/Pods/Alamofire/Source/StringEncoding+Alamofire.swift":
+  dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/StringEncoding+Alamofire.d"
+  swift-dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/StringEncoding+Alamofire.swiftdeps"
+  object: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/StringEncoding+Alamofire.o"
+  diagnostics: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/StringEncoding+Alamofire.dia"
+"/Users/liushuaibiao/Desktop/GetOffSubReminder/Pods/Alamofire/Source/SessionDelegate.swift":
+  dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/SessionDelegate.d"
+  diagnostics: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/SessionDelegate.dia"
+  swift-dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/SessionDelegate.swiftdeps"
+  object: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/SessionDelegate.o"

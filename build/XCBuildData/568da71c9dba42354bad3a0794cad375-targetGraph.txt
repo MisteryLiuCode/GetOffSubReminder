@@ -1,0 +1,15 @@
+Target dependency graph (6 targets)
+AMapFoundation in Pods, no dependencies
+AMap2DMap in Pods, depends on:
+AMapFoundation in Pods (explicit)
+AMapSearch in Pods, depends on:
+AMapFoundation in Pods (explicit)
+Alamofire in Pods, no dependencies
+Pods-GetOffSubReminder in Pods, depends on:
+AMap2DMap in Pods (explicit)
+AMapFoundation in Pods (explicit)
+AMapSearch in Pods (explicit)
+Alamofire in Pods (explicit)
+GetOffSubReminder in GetOffSubReminder, depends on:
+Pods-GetOffSubReminder in Pods (implicit dependency via file 'Pods_GetOffSubReminder.framework' in build phase 'Link Binary')
+Alamofire in Pods (implicit dependency via options '-framework Alamofire' in build setting 'OTHER_LDFLAGS')

@@ -1,0 +1,25 @@
+"/Users/liushuaibiao/Desktop/GetOffSubReminder/Pods/Alamofire/Source/Combine.swift":
+  dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Combine.d"
+  diagnostics: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Combine.dia"
+  swift-dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Combine.swiftdeps"
+  object: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Combine.o"
+"/Users/liushuaibiao/Desktop/GetOffSubReminder/Pods/Alamofire/Source/EventMonitor.swift":
+  swift-dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/EventMonitor.swiftdeps"
+  object: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/EventMonitor.o"
+  dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/EventMonitor.d"
+  diagnostics: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/EventMonitor.dia"
+"/Users/liushuaibiao/Desktop/GetOffSubReminder/Pods/Alamofire/Source/Concurrency.swift":
+  dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Concurrency.d"
+  swift-dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Concurrency.swiftdeps"
+  object: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Concurrency.o"
+  diagnostics: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Concurrency.dia"
+"/Users/liushuaibiao/Desktop/GetOffSubReminder/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift":
+  swift-dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/DispatchQueue+Alamofire.swiftdeps"
+  dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/DispatchQueue+Alamofire.d"
+  diagnostics: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/DispatchQueue+Alamofire.dia"
+  object: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/DispatchQueue+Alamofire.o"
+"/Users/liushuaibiao/Desktop/GetOffSubReminder/Pods/Alamofire/Source/HTTPHeaders.swift":
+  diagnostics: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/HTTPHeaders.dia"
+  object: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/HTTPHeaders.o"
+  dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/HTTPHeaders.d"
+  swift-dependencies: "/Users/liushuaibiao/Desktop/GetOffSubReminder/build/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/HTTPHeaders.swiftdeps"

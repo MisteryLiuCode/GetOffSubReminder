@@ -1,0 +1,6 @@
+framework module Pods_GetOffSubReminder_GetOffSubReminderUITests {
+  umbrella header "Pods-GetOffSubReminder-GetOffSubReminderUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
