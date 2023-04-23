@@ -116,6 +116,14 @@ extension ViewController: UpdateLocationProtocol{
         DesChineseLabel!.text = value
     }
     
+    func updateHomeLocationTxt(_ value: String) {
+        homeLocationLabel!.text = value
+    }
+    
+    func updateWorkLocationTxt(_ value: String) {
+        workLocationLabel!.text = value
+    }
+    
     func presentError(_ title: String,subHeading: String) {
         let alert = UIAlertController.init(title: title, message: subHeading, preferredStyle: .alert)
         alert.addAction(UIAlertAction.init(title: "Go to Settings", style: .default, handler: { [weak self] (_) in

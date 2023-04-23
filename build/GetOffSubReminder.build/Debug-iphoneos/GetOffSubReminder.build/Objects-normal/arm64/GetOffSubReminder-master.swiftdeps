@@ -1,11 +1,12 @@
 version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
 options: "58a798c7691b06917d231eaa59a581ded05ea77138da4ee2ad66a0c8fc3ad942"
-build_start_time: [1682228884, 526376962]
-build_end_time: [1682228885, 35187005]
+build_start_time: [1682241170, 385010957]
+build_end_time: [1682241179, 723493099]
 inputs:
   "/Users/liushuaibiao/Desktop/GetOffSubReminder/GetOffSubReminder/AppDelegate.swift": [1682228861, 688131332]
-  "/Users/liushuaibiao/Desktop/GetOffSubReminder/GetOffSubReminder/Constant.swift": [1682228861, 688862085]
+  "/Users/liushuaibiao/Desktop/GetOffSubReminder/GetOffSubReminder/Constant.swift": [1682233630, 312976360]
   "/Users/liushuaibiao/Desktop/GetOffSubReminder/GetOffSubReminder/SceneDelegate.swift": [1682228861, 689093589]
-  "/Users/liushuaibiao/Desktop/GetOffSubReminder/GetOffSubReminder/View/ViewController.swift": [1682228861, 689223289]
-  "/Users/liushuaibiao/Desktop/GetOffSubReminder/GetOffSubReminder/ViewModel/Contract.swift": [1682228861, 689340591]
-  "/Users/liushuaibiao/Desktop/GetOffSubReminder/GetOffSubReminder/ViewModel/LocationViewModel.swift": [1682228861, 689441204]
+  "/Users/liushuaibiao/Desktop/GetOffSubReminder/GetOffSubReminder/View/ViewController-Helper.swift": [1682234070, 409917354]
+  "/Users/liushuaibiao/Desktop/GetOffSubReminder/GetOffSubReminder/View/ViewController.swift": [1682239035, 369203567]
+  "/Users/liushuaibiao/Desktop/GetOffSubReminder/GetOffSubReminder/ViewModel/Contract.swift": [1682239035, 324323654]
+  "/Users/liushuaibiao/Desktop/GetOffSubReminder/GetOffSubReminder/ViewModel/LocationViewModel.swift": [1682240940, 429207563]

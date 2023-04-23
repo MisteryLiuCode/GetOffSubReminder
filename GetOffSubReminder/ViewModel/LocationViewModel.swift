@@ -18,6 +18,10 @@ class LocationViewModel: NSObject {
                 getUserLocation()
                 //更新位置
                 getTimedLocation()
+                //获取回家位置信息
+                getWorkAndHomeLocation(flag: 0)
+                //获取上班位置信息
+                getWorkAndHomeLocation(flag: 1)
             }
                 //10秒获取一下位置
             func getTimedLocation(){
@@ -91,6 +95,30 @@ class LocationViewModel: NSObject {
                     }
                 }
             }
+    
+    //获取回家位置和上班位置已经更新的位置信息
+    func getWorkAndHomeLocation(flag: Int){
+        let userId=getUserId();
+        if(flag==0){
+            //获取回家的经纬度
+            AF.request("http://\(kHost):\(kPort)/getWorkAndHomeLocation/home/\(userId)").responseJSON { response in
+                if let data=response.value{
+                    print("回家位置经纬度\(data)")
+                    //更新视图
+                    self.delegate?.updateHomeLocationTxt(data as! String)
+                }
+            }
+        }else if(flag==1){
+            //获取上班位置
+            AF.request("http://\(kHost):\(kPort)/getWorkAndHomeLocation/work/\(userId)").responseJSON { response in
+                if let data=response.value{
+                    print("上班位置经纬度\(data)")
+                    //更新视图
+                    self.delegate?.updateWorkLocationTxt(data as! String)
+                }
+            }
+        }
+    }
         
     //获取位置权限
             func getUserLocation() {

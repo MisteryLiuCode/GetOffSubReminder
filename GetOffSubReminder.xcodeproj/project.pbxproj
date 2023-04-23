@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		07D86D46ECA689B57F0F453D /* Pods_GetOffSubReminder_GetOffSubReminderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A9F1886406264AAC8CF7FC /* Pods_GetOffSubReminder_GetOffSubReminderUITests.framework */; };
+		4C5FB19829F5109D00264D6D /* ViewController-Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5FB19729F5109D00264D6D /* ViewController-Helper.swift */; };
 		4CAB583229E901C0004D6D9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB583129E901C0004D6D9E /* AppDelegate.swift */; };
 		4CAB583429E901C0004D6D9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB583329E901C0004D6D9E /* SceneDelegate.swift */; };
 		4CAB583B29E901C1004D6D9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CAB583A29E901C1004D6D9E /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		1D1B243AB1864B39EFAC8C49 /* Pods_GetOffSubReminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetOffSubReminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DEBF3FE2A77A5AA10D95800 /* Pods-GetOffSubReminderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetOffSubReminderTests.debug.xcconfig"; path = "Target Support Files/Pods-GetOffSubReminderTests/Pods-GetOffSubReminderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4BDFEBE830495A07E531DE51 /* Pods-GetOffSubReminder-GetOffSubReminderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetOffSubReminder-GetOffSubReminderUITests.debug.xcconfig"; path = "Target Support Files/Pods-GetOffSubReminder-GetOffSubReminderUITests/Pods-GetOffSubReminder-GetOffSubReminderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C5FB19729F5109D00264D6D /* ViewController-Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController-Helper.swift"; sourceTree = "<group>"; };
 		4CAB582E29E901C0004D6D9E /* GetOffSubReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetOffSubReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CAB583129E901C0004D6D9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CAB583329E901C0004D6D9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				4CAB586729E90229004D6D9E /* ViewController.swift */,
+				4C5FB19729F5109D00264D6D /* ViewController-Helper.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -468,6 +471,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CAB586829E90229004D6D9E /* ViewController.swift in Sources */,
+				4C5FB19829F5109D00264D6D /* ViewController-Helper.swift in Sources */,
 				4CAB586529E90221004D6D9E /* Contract.swift in Sources */,
 				4CAB583229E901C0004D6D9E /* AppDelegate.swift in Sources */,
 				4CAB583429E901C0004D6D9E /* SceneDelegate.swift in Sources */,

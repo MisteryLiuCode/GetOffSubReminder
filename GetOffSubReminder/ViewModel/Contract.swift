@@ -20,4 +20,8 @@ protocol UpdateLocationProtocol: AnyObject {
     //获取目的地，中文
     func updateDesChinese(_ value: String)
     func presentError(_ title: String,subHeading: String)
+    
+    func updateHomeLocationTxt(_ value: String)
+    
+    func updateWorkLocationTxt(_ value: String)
 }
