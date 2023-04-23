@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D86D46ECA689B57F0F453D /* Pods_GetOffSubReminder_GetOffSubReminderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A9F1886406264AAC8CF7FC /* Pods_GetOffSubReminder_GetOffSubReminderUITests.framework */; };
+		4CAB583229E901C0004D6D9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB583129E901C0004D6D9E /* AppDelegate.swift */; };
+		4CAB583429E901C0004D6D9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB583329E901C0004D6D9E /* SceneDelegate.swift */; };
+		4CAB583B29E901C1004D6D9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CAB583A29E901C1004D6D9E /* Assets.xcassets */; };
+		4CAB583E29E901C1004D6D9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CAB583C29E901C1004D6D9E /* LaunchScreen.storyboard */; };
+		4CAB584929E901C1004D6D9E /* GetOffSubReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB584829E901C1004D6D9E /* GetOffSubReminderTests.swift */; };
+		4CAB585329E901C1004D6D9E /* GetOffSubReminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB585229E901C1004D6D9E /* GetOffSubReminderUITests.swift */; };
+		4CAB585529E901C1004D6D9E /* GetOffSubReminderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB585429E901C1004D6D9E /* GetOffSubReminderUITestsLaunchTests.swift */; };
+		4CAB586529E90221004D6D9E /* Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB586329E90221004D6D9E /* Contract.swift */; };
+		4CAB586629E90221004D6D9E /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB586429E90221004D6D9E /* LocationViewModel.swift */; };
+		4CAB586829E90229004D6D9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB586729E90229004D6D9E /* ViewController.swift */; };
+		4CAB586A29E90236004D6D9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CAB586929E90236004D6D9E /* Main.storyboard */; };
+		4CC5DF0D29EC24F4000D3333 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC5DF0C29EC24F4000D3333 /* Constant.swift */; };
+		7824F31C4B79F941DB26BB05 /* Pods_GetOffSubReminderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91255D8A1063954D8661C4F /* Pods_GetOffSubReminderTests.framework */; };
+		CC1BA5822F1D5421A1C9723B /* Pods_GetOffSubReminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1B243AB1864B39EFAC8C49 /* Pods_GetOffSubReminder.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CAB584529E901C1004D6D9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CAB582629E901C0004D6D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CAB582D29E901C0004D6D9E;
+			remoteInfo = GetOffSubReminder;
+		};
+		4CAB584F29E901C1004D6D9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CAB582629E901C0004D6D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CAB582D29E901C0004D6D9E;
+			remoteInfo = GetOffSubReminder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11B16BF9F67FBFA646D57AF3 /* Pods-GetOffSubReminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetOffSubReminder.debug.xcconfig"; path = "Target Support Files/Pods-GetOffSubReminder/Pods-GetOffSubReminder.debug.xcconfig"; sourceTree = "<group>"; };
+		1D1B243AB1864B39EFAC8C49 /* Pods_GetOffSubReminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetOffSubReminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DEBF3FE2A77A5AA10D95800 /* Pods-GetOffSubReminderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetOffSubReminderTests.debug.xcconfig"; path = "Target Support Files/Pods-GetOffSubReminderTests/Pods-GetOffSubReminderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BDFEBE830495A07E531DE51 /* Pods-GetOffSubReminder-GetOffSubReminderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetOffSubReminder-GetOffSubReminderUITests.debug.xcconfig"; path = "Target Support Files/Pods-GetOffSubReminder-GetOffSubReminderUITests/Pods-GetOffSubReminder-GetOffSubReminderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CAB582E29E901C0004D6D9E /* GetOffSubReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetOffSubReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAB583129E901C0004D6D9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CAB583329E901C0004D6D9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4CAB583A29E901C1004D6D9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CAB583D29E901C1004D6D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CAB584429E901C1004D6D9E /* GetOffSubReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetOffSubReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAB584829E901C1004D6D9E /* GetOffSubReminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetOffSubReminderTests.swift; sourceTree = "<group>"; };
+		4CAB584E29E901C1004D6D9E /* GetOffSubReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetOffSubReminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAB585229E901C1004D6D9E /* GetOffSubReminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetOffSubReminderUITests.swift; sourceTree = "<group>"; };
+		4CAB585429E901C1004D6D9E /* GetOffSubReminderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetOffSubReminderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4CAB586329E90221004D6D9E /* Contract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contract.swift; sourceTree = "<group>"; };
+		4CAB586429E90221004D6D9E /* LocationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		4CAB586729E90229004D6D9E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CAB586929E90236004D6D9E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4CAB58AB29E92CF9004D6D9E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC5DF0C29EC24F4000D3333 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		938CD159590348155B002498 /* Pods-GetOffSubReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetOffSubReminderTests.release.xcconfig"; path = "Target Support Files/Pods-GetOffSubReminderTests/Pods-GetOffSubReminderTests.release.xcconfig"; sourceTree = "<group>"; };
+		A6A9F1886406264AAC8CF7FC /* Pods_GetOffSubReminder_GetOffSubReminderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetOffSubReminder_GetOffSubReminderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91255D8A1063954D8661C4F /* Pods_GetOffSubReminderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetOffSubReminderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB80724A1474E49A4B2D2E5B /* Pods-GetOffSubReminder-GetOffSubReminderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetOffSubReminder-GetOffSubReminderUITests.release.xcconfig"; path = "Target Support Files/Pods-GetOffSubReminder-GetOffSubReminderUITests/Pods-GetOffSubReminder-GetOffSubReminderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C291978C67BF3DC188A93BF5 /* Pods-GetOffSubReminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetOffSubReminder.release.xcconfig"; path = "Target Support Files/Pods-GetOffSubReminder/Pods-GetOffSubReminder.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CAB582B29E901C0004D6D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1BA5822F1D5421A1C9723B /* Pods_GetOffSubReminder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAB584129E901C1004D6D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7824F31C4B79F941DB26BB05 /* Pods_GetOffSubReminderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAB584B29E901C1004D6D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D86D46ECA689B57F0F453D /* Pods_GetOffSubReminder_GetOffSubReminderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B221B9C2D935328727298A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11B16BF9F67FBFA646D57AF3 /* Pods-GetOffSubReminder.debug.xcconfig */,
+				C291978C67BF3DC188A93BF5 /* Pods-GetOffSubReminder.release.xcconfig */,
+				4BDFEBE830495A07E531DE51 /* Pods-GetOffSubReminder-GetOffSubReminderUITests.debug.xcconfig */,
+				BB80724A1474E49A4B2D2E5B /* Pods-GetOffSubReminder-GetOffSubReminderUITests.release.xcconfig */,
+				1DEBF3FE2A77A5AA10D95800 /* Pods-GetOffSubReminderTests.debug.xcconfig */,
+				938CD159590348155B002498 /* Pods-GetOffSubReminderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		47123803E46B1D72F6206C03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D1B243AB1864B39EFAC8C49 /* Pods_GetOffSubReminder.framework */,
+				A6A9F1886406264AAC8CF7FC /* Pods_GetOffSubReminder_GetOffSubReminderUITests.framework */,
+				A91255D8A1063954D8661C4F /* Pods_GetOffSubReminderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CAB582529E901C0004D6D9E = {
+			isa = PBXGroup;
+			children = (
+				4CAB583029E901C0004D6D9E /* GetOffSubReminder */,
+				4CAB584729E901C1004D6D9E /* GetOffSubReminderTests */,
+				4CAB585129E901C1004D6D9E /* GetOffSubReminderUITests */,
+				4CAB582F29E901C0004D6D9E /* Products */,
+				2B221B9C2D935328727298A2 /* Pods */,
+				47123803E46B1D72F6206C03 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CAB582F29E901C0004D6D9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CAB582E29E901C0004D6D9E /* GetOffSubReminder.app */,
+				4CAB584429E901C1004D6D9E /* GetOffSubReminderTests.xctest */,
+				4CAB584E29E901C1004D6D9E /* GetOffSubReminderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CAB583029E901C0004D6D9E /* GetOffSubReminder */ = {
+			isa = PBXGroup;
+			children = (
+				4CAB58AB29E92CF9004D6D9E /* Info.plist */,
+				4CAB586229E90212004D6D9E /* View */,
+				4CAB586129E9020A004D6D9E /* ViewModel */,
+				4CAB583129E901C0004D6D9E /* AppDelegate.swift */,
+				4CAB583329E901C0004D6D9E /* SceneDelegate.swift */,
+				4CAB586929E90236004D6D9E /* Main.storyboard */,
+				4CAB583A29E901C1004D6D9E /* Assets.xcassets */,
+				4CAB583C29E901C1004D6D9E /* LaunchScreen.storyboard */,
+				4CC5DF0C29EC24F4000D3333 /* Constant.swift */,
+			);
+			path = GetOffSubReminder;
+			sourceTree = "<group>";
+		};
+		4CAB584729E901C1004D6D9E /* GetOffSubReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CAB584829E901C1004D6D9E /* GetOffSubReminderTests.swift */,
+			);
+			path = GetOffSubReminderTests;
+			sourceTree = "<group>";
+		};
+		4CAB585129E901C1004D6D9E /* GetOffSubReminderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CAB585229E901C1004D6D9E /* GetOffSubReminderUITests.swift */,
+				4CAB585429E901C1004D6D9E /* GetOffSubReminderUITestsLaunchTests.swift */,
+			);
+			path = GetOffSubReminderUITests;
+			sourceTree = "<group>";
+		};
+		4CAB586129E9020A004D6D9E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4CAB586329E90221004D6D9E /* Contract.swift */,
+				4CAB586429E90221004D6D9E /* LocationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4CAB586229E90212004D6D9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4CAB586729E90229004D6D9E /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CAB582D29E901C0004D6D9E /* GetOffSubReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAB585829E901C1004D6D9E /* Build configuration list for PBXNativeTarget "GetOffSubReminder" */;
+			buildPhases = (
+				1737627211445FD0FBFE86BE /* [CP] Check Pods Manifest.lock */,
+				4CAB582A29E901C0004D6D9E /* Sources */,
+				4CAB582B29E901C0004D6D9E /* Frameworks */,
+				4CAB582C29E901C0004D6D9E /* Resources */,
+				D81254FB4B56C492BA840B78 /* [CP] Embed Pods Frameworks */,
+				5EE9BF6E22D93492BB837BC1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetOffSubReminder;
+			productName = GetOffSubReminder;
+			productReference = 4CAB582E29E901C0004D6D9E /* GetOffSubReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CAB584329E901C1004D6D9E /* GetOffSubReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAB585B29E901C1004D6D9E /* Build configuration list for PBXNativeTarget "GetOffSubReminderTests" */;
+			buildPhases = (
+				BC1E44E6CD9456DAD4223BCD /* [CP] Check Pods Manifest.lock */,
+				4CAB584029E901C1004D6D9E /* Sources */,
+				4CAB584129E901C1004D6D9E /* Frameworks */,
+				4CAB584229E901C1004D6D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CAB584629E901C1004D6D9E /* PBXTargetDependency */,
+			);
+			name = GetOffSubReminderTests;
+			productName = GetOffSubReminderTests;
+			productReference = 4CAB584429E901C1004D6D9E /* GetOffSubReminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CAB584D29E901C1004D6D9E /* GetOffSubReminderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAB585E29E901C1004D6D9E /* Build configuration list for PBXNativeTarget "GetOffSubReminderUITests" */;
+			buildPhases = (
+				DCE40DE743504DAE06130FE6 /* [CP] Check Pods Manifest.lock */,
+				4CAB584A29E901C1004D6D9E /* Sources */,
+				4CAB584B29E901C1004D6D9E /* Frameworks */,
+				4CAB584C29E901C1004D6D9E /* Resources */,
+				3E60BF560D027B4C14284F16 /* [CP] Embed Pods Frameworks */,
+				CD120BA907455B37396CEEB0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CAB585029E901C1004D6D9E /* PBXTargetDependency */,
+			);
+			name = GetOffSubReminderUITests;
+			productName = GetOffSubReminderUITests;
+			productReference = 4CAB584E29E901C1004D6D9E /* GetOffSubReminderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CAB582629E901C0004D6D9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4CAB582D29E901C0004D6D9E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					4CAB584329E901C1004D6D9E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4CAB582D29E901C0004D6D9E;
+					};
+					4CAB584D29E901C1004D6D9E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4CAB582D29E901C0004D6D9E;
+					};
+				};
+			};
+			buildConfigurationList = 4CAB582929E901C0004D6D9E /* Build configuration list for PBXProject "GetOffSubReminder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CAB582529E901C0004D6D9E;
+			productRefGroup = 4CAB582F29E901C0004D6D9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CAB582D29E901C0004D6D9E /* GetOffSubReminder */,
+				4CAB584329E901C1004D6D9E /* GetOffSubReminderTests */,
+				4CAB584D29E901C1004D6D9E /* GetOffSubReminderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CAB582C29E901C0004D6D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAB586A29E90236004D6D9E /* Main.storyboard in Resources */,
+				4CAB583E29E901C1004D6D9E /* LaunchScreen.storyboard in Resources */,
+				4CAB583B29E901C1004D6D9E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAB584229E901C1004D6D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAB584C29E901C1004D6D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1737627211445FD0FBFE86BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GetOffSubReminder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E60BF560D027B4C14284F16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GetOffSubReminder-GetOffSubReminderUITests/Pods-GetOffSubReminder-GetOffSubReminderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GetOffSubReminder-GetOffSubReminderUITests/Pods-GetOffSubReminder-GetOffSubReminderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GetOffSubReminder-GetOffSubReminderUITests/Pods-GetOffSubReminder-GetOffSubReminderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EE9BF6E22D93492BB837BC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GetOffSubReminder/Pods-GetOffSubReminder-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GetOffSubReminder/Pods-GetOffSubReminder-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GetOffSubReminder/Pods-GetOffSubReminder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC1E44E6CD9456DAD4223BCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GetOffSubReminderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD120BA907455B37396CEEB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GetOffSubReminder-GetOffSubReminderUITests/Pods-GetOffSubReminder-GetOffSubReminderUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GetOffSubReminder-GetOffSubReminderUITests/Pods-GetOffSubReminder-GetOffSubReminderUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GetOffSubReminder-GetOffSubReminderUITests/Pods-GetOffSubReminder-GetOffSubReminderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D81254FB4B56C492BA840B78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GetOffSubReminder/Pods-GetOffSubReminder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GetOffSubReminder/Pods-GetOffSubReminder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GetOffSubReminder/Pods-GetOffSubReminder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCE40DE743504DAE06130FE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GetOffSubReminder-GetOffSubReminderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CAB582A29E901C0004D6D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAB586829E90229004D6D9E /* ViewController.swift in Sources */,
+				4CAB586529E90221004D6D9E /* Contract.swift in Sources */,
+				4CAB583229E901C0004D6D9E /* AppDelegate.swift in Sources */,
+				4CAB583429E901C0004D6D9E /* SceneDelegate.swift in Sources */,
+				4CAB586629E90221004D6D9E /* LocationViewModel.swift in Sources */,
+				4CC5DF0D29EC24F4000D3333 /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAB584029E901C1004D6D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAB584929E901C1004D6D9E /* GetOffSubReminderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAB584A29E901C1004D6D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAB585529E901C1004D6D9E /* GetOffSubReminderUITestsLaunchTests.swift in Sources */,
+				4CAB585329E901C1004D6D9E /* GetOffSubReminderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CAB584629E901C1004D6D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CAB582D29E901C0004D6D9E /* GetOffSubReminder */;
+			targetProxy = 4CAB584529E901C1004D6D9E /* PBXContainerItemProxy */;
+		};
+		4CAB585029E901C1004D6D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CAB582D29E901C0004D6D9E /* GetOffSubReminder */;
+			targetProxy = 4CAB584F29E901C1004D6D9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CAB583C29E901C1004D6D9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CAB583D29E901C1004D6D9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CAB585629E901C1004D6D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CAB585729E901C1004D6D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CAB585929E901C1004D6D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11B16BF9F67FBFA646D57AF3 /* Pods-GetOffSubReminder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VCU9G6232;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GetOffSubReminder/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "请允许访问您的位置信息";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "请允许访问您的位置信息";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephy.assignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CAB585A29E901C1004D6D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C291978C67BF3DC188A93BF5 /* Pods-GetOffSubReminder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VCU9G6232;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GetOffSubReminder/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "请允许访问您的位置信息";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "请允许访问您的位置信息";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stephy.assignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CAB585C29E901C1004D6D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DEBF3FE2A77A5AA10D95800 /* Pods-GetOffSubReminderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VCU9G6232;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liu.GetOffSubReminderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetOffSubReminder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GetOffSubReminder";
+			};
+			name = Debug;
+		};
+		4CAB585D29E901C1004D6D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 938CD159590348155B002498 /* Pods-GetOffSubReminderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VCU9G6232;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liu.GetOffSubReminderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetOffSubReminder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GetOffSubReminder";
+			};
+			name = Release;
+		};
+		4CAB585F29E901C1004D6D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BDFEBE830495A07E531DE51 /* Pods-GetOffSubReminder-GetOffSubReminderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VCU9G6232;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liu.GetOffSubReminderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GetOffSubReminder;
+			};
+			name = Debug;
+		};
+		4CAB586029E901C1004D6D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB80724A1474E49A4B2D2E5B /* Pods-GetOffSubReminder-GetOffSubReminderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VCU9G6232;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liu.GetOffSubReminderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GetOffSubReminder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CAB582929E901C0004D6D9E /* Build configuration list for PBXProject "GetOffSubReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAB585629E901C1004D6D9E /* Debug */,
+				4CAB585729E901C1004D6D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CAB585829E901C1004D6D9E /* Build configuration list for PBXNativeTarget "GetOffSubReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAB585929E901C1004D6D9E /* Debug */,
+				4CAB585A29E901C1004D6D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CAB585B29E901C1004D6D9E /* Build configuration list for PBXNativeTarget "GetOffSubReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAB585C29E901C1004D6D9E /* Debug */,
+				4CAB585D29E901C1004D6D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CAB585E29E901C1004D6D9E /* Build configuration list for PBXNativeTarget "GetOffSubReminderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAB585F29E901C1004D6D9E /* Debug */,
+				4CAB586029E901C1004D6D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CAB582629E901C0004D6D9E /* Project object */;
+}
