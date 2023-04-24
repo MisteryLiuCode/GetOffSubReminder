@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
 options: "cc17db69be346722fc871857b8857955f1eb78e2eb0289f2c73f58054ff0006b"
-build_start_time: [1682241167, 581140041]
-build_end_time: [1682241170, 346293926]
+build_start_time: [1682307840, 829297065]
+build_end_time: [1682307840, 982931137]
 inputs:
   "/Users/liushuaibiao/Desktop/GetOffSubReminder/Pods/Alamofire/Source/AFError.swift": [1682228871, 811585903]
   "/Users/liushuaibiao/Desktop/GetOffSubReminder/Pods/Alamofire/Source/Alamofire.swift": [1682228871, 814589500]

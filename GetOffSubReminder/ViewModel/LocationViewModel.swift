@@ -102,19 +102,21 @@ class LocationViewModel: NSObject {
         if(flag==0){
             //获取回家的经纬度
             AF.request("http://\(kHost):\(kPort)/getWorkAndHomeLocation/home/\(userId)").responseJSON { response in
-                if let data=response.value{
-                    print("回家位置经纬度\(data)")
+                if let data=response.data{
+                    let string = String(data: data, encoding: .utf8)
+                    print("回家位置经纬度\(string)")
                     //更新视图
-                    self.delegate?.updateHomeLocationTxt(data as! String)
+                    self.delegate?.updateHomeLocationTxt(string!)
                 }
             }
         }else if(flag==1){
             //获取上班位置
             AF.request("http://\(kHost):\(kPort)/getWorkAndHomeLocation/work/\(userId)").responseJSON { response in
-                if let data=response.value{
-                    print("上班位置经纬度\(data)")
+                if let data=response.data{
+                    let string = String(data: data, encoding: .utf8)
+                    print("上班位置经纬度\(string)")
                     //更新视图
-                    self.delegate?.updateWorkLocationTxt(data as! String)
+                    self.delegate?.updateWorkLocationTxt(string!)
                 }
             }
         }
