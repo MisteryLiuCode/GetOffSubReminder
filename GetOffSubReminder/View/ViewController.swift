@@ -84,14 +84,26 @@ class ViewController: UIViewController {
     
     func SaveUserId(){
         if let myId = UserDefaults.standard.string(forKey: "myId") {
-            print("My unique ID: \(myId)")
+            print("本机设备id: \(myId)")
+            // 定义入参参数
+            let userReq: Parameters = [
+                "userId": myId,
+            ]
+            
             //发送请求保存用户
-            AF.request("http://\(kHost):\(kPort)/saveUserInfo/\(myId)").responseJSON { response in
-                guard  let data = response.data  else{
-                    return
+            AF.request("http://\(kHost):\(kPort)/saveUserInfo", method: .post, parameters: userReq)
+                .responseJSON { response in
+                    if case .success(let value) = response.result {
+                        if let json = value as? [String: Any],
+                           let responseData = try? JSONDecoder().decode(Res<Bool>.self, from: JSONSerialization.data(withJSONObject: json)) {
+                            // 获取response data
+                            if responseData.retCode=="0000"{
+                                let saveUser = responseData.busBody
+                                print("保存用户id状态：\(saveUser)")
+                            }
+                        }
+                    }
                 }
-                print("保存用户id状态：\(response.value)")
-            }
         }else{
             let uniqueId = UUID().uuidString
             UserDefaults.standard.set(uniqueId, forKey: "myId")

@@ -3,12 +3,6 @@ import CoreLocation
 import Alamofire
 
 class LocationViewModel: NSObject {
-    // 定义User对象
-    struct Res<T: Decodable>: Decodable{
-        let retCode: String
-        let retMsg: String
-        let busBody: T
-    }
     //    struct DesChinese: Decodable {
     //        let des: String
     //    }
@@ -52,41 +46,48 @@ class LocationViewModel: NSObject {
         // 发送POST请求
         AF.request("http://\(kHost):\(kPort)/getDestination", method: .post, parameters: userReq)
             .responseJSON { response in
-                
                 if case .success(let value) = response.result {
                     if let json = value as? [String: Any],
                        let responseData = try? JSONDecoder().decode(Res<String>.self, from: JSONSerialization.data(withJSONObject: json)) {
                         // 获取response data
-                        let errorCode = responseData.retCode
-                        let message = responseData.retMsg
-                        let desChinese = responseData.busBody
-                        print("目的地中文：\(desChinese)")
-                        self.delegate?.updateDesChinese("目的地:\(desChinese)")
+                        if responseData.retCode=="0000"{
+                            let desChinese = responseData.busBody
+                            print("目的地中文：\(desChinese)")
+                            self.delegate?.updateDesChinese("目的地:\(desChinese)")
+                        }
                     }
                 }
             }
     }
     //        更新位置
     func updateDatabase(value: CLLocationCoordinate2D) {
-        var modelValue = [String: Any]()
         var latitude=value.latitude
         var longitude=value.longitude
-        modelValue["latitude"] = latitude
-        modelValue["longitude"] = longitude
-        modelValue["time"] = getTime()
+        // 定义入参参数
         let userId=getUserId();
-        //发送请求，获取距离
-        AF.request("http://\(kHost):\(kPort)/getDistance/\(longitude)/\(latitude)/\(userId)").responseJSON { response in
-            if let data=response.value{
-                print("距离：\(data)")
-                if(data as! Int==0){
-                    self.delegate?.updateDestination("距离目的地:请先采集位置信息")
-                }else{
-                    self.delegate?.updateDestination("距离目的地:\(data as! Double/1000)千米")
+        let distanceReq: Parameters = [
+            "userId": userId,
+            "oriLong": longitude,
+            "oriLat": latitude,
+        ]
+        AF.request("http://\(kHost):\(kPort)/getDistance", method: .post, parameters: distanceReq)
+            .responseJSON { response in
+                if case .success(let value) = response.result {
+                    if let json = value as? [String: Any],
+                       let responseData = try? JSONDecoder().decode(Res<Double>.self, from: JSONSerialization.data(withJSONObject: json)) {
+                        // 获取response data
+                        if responseData.retCode=="0000"{
+                            let distance = responseData.busBody
+                            print("距离：\(distance)")
+                            if(distance==0){
+                                self.delegate?.updateDestination("距离目的地:请先采集位置信息")
+                            }else{
+                                self.delegate?.updateDestination("距离目的地:\(distance as! Double/1000)千米")
+                            }
+                        }
+                    }
                 }
-                
             }
-        }
     }
     
     //获取上下班地铁位置
@@ -94,26 +95,55 @@ class LocationViewModel: NSObject {
         //0:更新家方向地铁下车位置 1:获取上班方向地铁下车位置
         guard let unwrappedLocation = self.updatingLocationValue else { return }
         let latitude=unwrappedLocation.latitude
-        
         let longitude=unwrappedLocation.longitude
         let userId=getUserId();
         if(flag==0){
             //更新位置
             self.delegate?.updateHomeLocation(longitude,latitude)
-            //发送请求存储位置
-            AF.request("http://\(kHost):\(kPort)/saveLocation/\(longitude)/\(latitude)/home/\(userId)").responseJSON { response in
-                if let data=response.value{
-                    print("保存家位置信息状态：\(data)")
+            // 定义入参参数
+            let userId=getUserId();
+            let saveHomeReq: Parameters = [
+                "userId": userId,
+                "oriLong": longitude,
+                "oriLat": latitude,
+                "locationType":"home"
+            ]
+            AF.request("http://\(kHost):\(kPort)/saveLocation", method: .post, parameters: saveHomeReq)
+                .responseJSON { response in
+                    if case .success(let value) = response.result {
+                        if let json = value as? [String: Any],
+                           let responseData = try? JSONDecoder().decode(Res<Int>.self, from: JSONSerialization.data(withJSONObject: json)) {
+                            // 获取response data
+                            if responseData.retCode=="0000"{
+                                let saveHomeStatus = responseData.busBody
+                                print("保存家位置信息状态：\(saveHomeStatus)")
+                            }
+                        }
+                    }
                 }
-            }
         }else if(flag==1){
             self.delegate?.updateWorkLocation(longitude,latitude)
-            //发送请求存储位置
-            AF.request("http://\(kHost):\(kPort)/saveLocation/\(longitude)/\(latitude)/work/\(userId)").responseJSON { response in
-                if let data=response.value{
-                    print("保存上班位置信息状态：\(data)")
+            // 定义入参参数
+            let userId=getUserId();
+            let saveWorkReq: Parameters = [
+                "userId": userId,
+                "oriLong": longitude,
+                "oriLat": latitude,
+                "locationType":"work"
+            ]
+            AF.request("http://\(kHost):\(kPort)/saveLocation", method: .post, parameters: saveWorkReq)
+                .responseJSON { response in
+                    if case .success(let value) = response.result {
+                        if let json = value as? [String: Any],
+                           let responseData = try? JSONDecoder().decode(Res<Int>.self, from: JSONSerialization.data(withJSONObject: json)) {
+                            // 获取response data
+                            if responseData.retCode=="0000"{
+                                let saveHomeStatus = responseData.busBody
+                                print("保存上班位置信息状态：\(saveHomeStatus)")
+                            }
+                        }
+                    }
                 }
-            }
         }
     }
     
@@ -121,25 +151,38 @@ class LocationViewModel: NSObject {
     func getWorkAndHomeLocation(flag: Int){
         let userId=getUserId();
         if(flag==0){
+            // 定义入参参数
+            let homeReq: Parameters = [
+                "userId": userId,
+                "locationType":"home"
+            ]
             //获取回家的经纬度
-            AF.request("http://\(kHost):\(kPort)/getWorkAndHomeLocation/home/\(userId)").responseJSON { response in
-                if let data=response.data{
-                    let string = String(data: data, encoding: .utf8)
-                    print("回家位置经纬度\(string)")
-                    //更新视图
-                    self.delegate?.updateHomeLocationTxt(string!)
+            AF.request("http://\(kHost):\(kPort)/getWorkAndHomeLocation", method: .post, parameters: homeReq)
+                .responseJSON { response in
+                        if let data=response.data{
+                            let homeInfo = String(data: data, encoding: .utf8)
+                            print("回家位置经纬度\(homeInfo)")
+                            //更新视图
+                            self.delegate?.updateHomeLocationTxt(homeInfo!)
+                        }
                 }
-            }
         }else if(flag==1){
-            //获取上班位置
-            AF.request("http://\(kHost):\(kPort)/getWorkAndHomeLocation/work/\(userId)").responseJSON { response in
-                if let data=response.data{
-                    let string = String(data: data, encoding: .utf8)
-                    print("上班位置经纬度\(string)")
-                    //更新视图
-                    self.delegate?.updateWorkLocationTxt(string!)
+            // 定义入参参数
+            let workReq: Parameters = [
+                "userId": userId,
+                "locationType":"work"
+            ]
+            
+            //获取上班的经纬度
+            AF.request("http://\(kHost):\(kPort)/getWorkAndHomeLocation", method: .post, parameters: workReq)
+                .responseJSON { response in
+                        if let data=response.data{
+                            let workInfo = String(data: data, encoding: .utf8)
+                            print("上班位置经纬度\(workInfo)")
+                            //更新视图
+                            self.delegate?.updateWorkLocationTxt(workInfo!)
+                        }
                 }
-            }
         }
     }
     

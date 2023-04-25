@@ -21,6 +21,8 @@
 		4CAB586829E90229004D6D9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB586729E90229004D6D9E /* ViewController.swift */; };
 		4CAB586A29E90236004D6D9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CAB586929E90236004D6D9E /* Main.storyboard */; };
 		4CC5DF0D29EC24F4000D3333 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC5DF0C29EC24F4000D3333 /* Constant.swift */; };
+		4CD5B20A29F772D200CA2AF1 /* Res.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5B20929F772D200CA2AF1 /* Res.swift */; };
+		4CD5B20C29F77DB600CA2AF1 /* DistanceReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5B20B29F77DB600CA2AF1 /* DistanceReq.swift */; };
 		7824F31C4B79F941DB26BB05 /* Pods_GetOffSubReminderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91255D8A1063954D8661C4F /* Pods_GetOffSubReminderTests.framework */; };
 		CC1BA5822F1D5421A1C9723B /* Pods_GetOffSubReminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1B243AB1864B39EFAC8C49 /* Pods_GetOffSubReminder.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +66,8 @@
 		4CAB586929E90236004D6D9E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4CAB58AB29E92CF9004D6D9E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CC5DF0C29EC24F4000D3333 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		4CD5B20929F772D200CA2AF1 /* Res.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Res.swift; sourceTree = "<group>"; };
+		4CD5B20B29F77DB600CA2AF1 /* DistanceReq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceReq.swift; sourceTree = "<group>"; };
 		938CD159590348155B002498 /* Pods-GetOffSubReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetOffSubReminderTests.release.xcconfig"; path = "Target Support Files/Pods-GetOffSubReminderTests/Pods-GetOffSubReminderTests.release.xcconfig"; sourceTree = "<group>"; };
 		A6A9F1886406264AAC8CF7FC /* Pods_GetOffSubReminder_GetOffSubReminderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetOffSubReminder_GetOffSubReminderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91255D8A1063954D8661C4F /* Pods_GetOffSubReminderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetOffSubReminderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,6 +151,7 @@
 		4CAB583029E901C0004D6D9E /* GetOffSubReminder */ = {
 			isa = PBXGroup;
 			children = (
+				4CD5B20829F7721400CA2AF1 /* entity */,
 				4CAB58AB29E92CF9004D6D9E /* Info.plist */,
 				4CAB586229E90212004D6D9E /* View */,
 				4CAB586129E9020A004D6D9E /* ViewModel */,
@@ -193,6 +198,15 @@
 				4C5FB19729F5109D00264D6D /* ViewController-Helper.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		4CD5B20829F7721400CA2AF1 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				4CD5B20929F772D200CA2AF1 /* Res.swift */,
+				4CD5B20B29F77DB600CA2AF1 /* DistanceReq.swift */,
+			);
+			path = entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -473,9 +487,11 @@
 				4CAB586829E90229004D6D9E /* ViewController.swift in Sources */,
 				4C5FB19829F5109D00264D6D /* ViewController-Helper.swift in Sources */,
 				4CAB586529E90221004D6D9E /* Contract.swift in Sources */,
+				4CD5B20C29F77DB600CA2AF1 /* DistanceReq.swift in Sources */,
 				4CAB583229E901C0004D6D9E /* AppDelegate.swift in Sources */,
 				4CAB583429E901C0004D6D9E /* SceneDelegate.swift in Sources */,
 				4CAB586629E90221004D6D9E /* LocationViewModel.swift in Sources */,
+				4CD5B20A29F772D200CA2AF1 /* Res.swift in Sources */,
 				4CC5DF0D29EC24F4000D3333 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
