@@ -36,13 +36,13 @@ class ViewController: UIViewController {
         if(!(homeLocationLabel.text == "右边按钮获取回家地铁下车位置")){
             // create the alert
             let alert = UIAlertController(title: "位置更新", message: "你确定要更新位置信息吗", preferredStyle: UIAlertController.Style.alert)
-
+            
             // add the actions (buttons)
             alert.addAction(UIAlertAction(title: "确定", style: UIAlertAction.Style.default, handler: { action in
                 
                 // do something like...
                 self.viewModel.updateLocation(flag: 0)
-
+                
             }))
             alert.addAction(UIAlertAction(title: "取消", style: UIAlertAction.Style.cancel, handler: nil))
             self.present(alert, animated: true, completion: nil)
@@ -56,20 +56,20 @@ class ViewController: UIViewController {
         if(!(workLocationLabel.text == "右边按钮获取上班地铁下车位置")){
             // create the alert
             let alert = UIAlertController(title: "位置更新", message: "你确定要更新位置信息吗", preferredStyle: UIAlertController.Style.alert)
-
+            
             // add the actions (buttons)
             alert.addAction(UIAlertAction(title: "确定", style: UIAlertAction.Style.default, handler: { action in
-
+                
                 // do something like...
                 self.viewModel.updateLocation(flag: 1)
-
+                
             }))
             alert.addAction(UIAlertAction(title: "取消", style: UIAlertAction.Style.cancel, handler: nil))
             self.present(alert, animated: true, completion: nil)
         }else{
             viewModel.updateLocation(flag: 1)
         }
-       
+        
     }
     
     override func viewDidLoad() {

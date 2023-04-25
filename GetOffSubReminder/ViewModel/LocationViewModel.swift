@@ -159,12 +159,12 @@ class LocationViewModel: NSObject {
             //获取回家的经纬度
             AF.request("http://\(kHost):\(kPort)/getWorkAndHomeLocation", method: .post, parameters: homeReq)
                 .responseJSON { response in
-                        if let data=response.data{
-                            let homeInfo = String(data: data, encoding: .utf8)
-                            print("回家位置经纬度\(homeInfo)")
-                            //更新视图
-                            self.delegate?.updateHomeLocationTxt(homeInfo!)
-                        }
+                    if let data=response.data{
+                        let homeInfo = String(data: data, encoding: .utf8)
+                        print("回家位置经纬度\(homeInfo)")
+                        //更新视图
+                        self.delegate?.updateHomeLocationTxt(homeInfo!)
+                    }
                 }
         }else if(flag==1){
             // 定义入参参数
@@ -176,12 +176,12 @@ class LocationViewModel: NSObject {
             //获取上班的经纬度
             AF.request("http://\(kHost):\(kPort)/getWorkAndHomeLocation", method: .post, parameters: workReq)
                 .responseJSON { response in
-                        if let data=response.data{
-                            let workInfo = String(data: data, encoding: .utf8)
-                            print("上班位置经纬度\(workInfo)")
-                            //更新视图
-                            self.delegate?.updateWorkLocationTxt(workInfo!)
-                        }
+                    if let data=response.data{
+                        let workInfo = String(data: data, encoding: .utf8)
+                        print("上班位置经纬度\(workInfo)")
+                        //更新视图
+                        self.delegate?.updateWorkLocationTxt(workInfo!)
+                    }
                 }
         }
     }
